@@ -10,9 +10,9 @@ function ProfileRouter() {
         <Router>
             <Routes>
                 <Route exact path = "/" element={<PersonalDetails/>}/>
-                <Route exact path = "/experience" element={<Experience/>}/>
-                <Route exact path = "/education" element={<Education/>}/>
-                <Route exact path = "/contactDetails" element={<ContactDetails/>}/>
+                <Route  path = "/experience" element={<Experience/>}/>
+                <Route  path = "/education" element={<Education/>}/>
+                <Route  path = "/contactDetails" element={<ContactDetails/>}/>
             </Routes>
         </Router>
     )
